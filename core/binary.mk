@@ -264,7 +264,6 @@ my_cppflags := $(my_cpp_std_version) $(my_cppflags)
 # Load our optimizations
 include $(BUILD_SYSTEM)/uber.mk
 
-
 ifeq ($(SDCLANG),true)
     ifeq ($(my_sdclang),)
         ifeq ($(TARGET_USE_SDCLANG),true)
