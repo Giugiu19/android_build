@@ -727,7 +727,7 @@ APICHECK_CLASSPATH_ENTRIES := \
     )
 APICHECK_CLASSPATH := $(subst $(space),:,$(strip $(APICHECK_CLASSPATH_ENTRIES)))
 
-APICHECK_COMMAND := $(APICHECK) -JXmx1024m -J"classpath $(APICHECK_CLASSPATH)"
+APICHECK_COMMAND := $(APICHECK) -JXmx2024m -J"classpath $(APICHECK_CLASSPATH)"
 
 # Boolean variable determining if Treble is fully enabled
 PRODUCT_FULL_TREBLE := false
